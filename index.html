@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solution | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=
+Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="https://s3images.coroflot.com/user_files/individual_files/original_677882_ewz3wdcc9ao7eu5f4dlszexu_.png" width="125 px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>                   
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <input  type="text" placeholder="Search.." >
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="https://icon-library.com/images/cart-icon-png-white/cart-icon-png-white-2.jpg" width="35px" height="35px"></a>
+            <img src="images/menu.png" class="menu-icon"
+             onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Style <br>A New Style!</h1>
+                <p>Success isn't always about greatness. It's about
+                 consistency. Consistent <br>hard work gains success. Greatest will come.</p>
+                 <a href="product.html"class = "btn">Explore Now &#8594;</a>
+
+            </div>
+            <div class="col-2">
+                <img src="images/Information-Technology-Transparent-PNG.png">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+    <!--------featured products---------->
+    <h2 class="title">Featured Products</h2>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/air pods.jpeg" width="100%" height="450px">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/product-2.jpg" width="100%" height="450px">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/ps 5.jpg" width="100%" height="450px">
+          
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="https://www.livemint.com/lm-img/img/2023/10/13/600x338/amazon_sale_1697199696130_1697199696343.jpg" width="100%" height="450px">
+            
+          </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+  
+   
+     <!--------Latest products---------->
+     <div class="small-container">       
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+            <a href="productdetail1.html"><img src="images/gallery-1.jpg"></a>
+            <a href="productdetail1.html"><h4>AirPods Pro</h4></a>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg">
+            <h4>RGB Keyboard</h4>
+            <p>$70.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg">
+            <h4>Gaming Setup</h4>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg">
+            <h4>Black watch</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-9.jpg">
+            <h4>World watch</h4>
+            <p>$80.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-10.jpg">
+            <h4>Bloody Mouse</h4>
+            <p>$70.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.jpg">
+            <h4>HP Laptop</h4>
+            <p>$400.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-12.jpg">
+            <h4>PS-5 Controllers</h4>
+            <p>$150.00</p>
+        </div>
+      </div>
+     </div>
+<!-- -------offer---------- -->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+<img src="images/exclusive.png">
+            </div>
+            <div class="col-2">
+            <p>Exclusively Available on RedStore</p>
+            <h1>Smart Band 4</h1>
+            <small>
+                The Mi Smart band 4 features are 39.9% larger (than MI band 3) 
+                AMOLED colour full-touch display with adjustable brightness, so 
+                everything is clear as can be.  
+            </small><br>
+            <a href="" class="btn">Buy Now &#8594;</a>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- ----------brands------------>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/HP-PNG-File.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/IPhone-Apple-PNG-Image.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/Lenovo-PNG-Picture.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----footer-------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for android and ios mobile</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="https://s3images.coroflot.com/user_files/individual_files/original_677882_ewz3wdcc9ao7eu5f4dlszexu_.png"width="200" height="150">
+                <p>Our purpose to sustainly provide the benefits of tech.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliates</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023</p>
+    </div>
+</div>
+<!-- -----------js foe toggle menu----------->
+<script>
+var MenuItems=document.getElementById("MenuItems");
+MenuItems.style.maxHeight="0px";
+function menutoggle(){
+    if(MenuItems.style.maxHeight== "0px"){
+        MenuItems.style.maxHeight="200px";
+    }
+    else{
+        MenuItems.style.maxHeight="0px";
+    }
+}
+
+</script>
+<!-----------------js for carousel --------------->
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+</body>
+</html>
+
